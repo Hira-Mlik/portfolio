@@ -1,0 +1,197 @@
+.navbar{
+    margin-top: -17px;
+    height: 80px;
+background-color: black;
+}
+.navbar>.container-fluid{
+    background-color: black;
+}
+.c1{
+    display: flex;
+    position: relative;
+    left: 40px;
+    
+}
+.c1>li{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.c2{
+    position: relative;
+    left: 50px;
+    transition-duration: 4s;
+}
+.c2:hover{
+    transform: perspective(800px)translateZ(160px);
+}
+.c3{
+    position: relative;
+    left: 130px;
+}
+.img1{
+position: relative;
+right: 30px;
+}
+.c4{
+    position: relative;
+    right: 60px;
+    
+}
+.breadcrumb>.b1{
+    position: relative;
+    top: 20px;
+    
+}
+.b2{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    color: white;
+}
+.b1,a{
+color: white;
+}
+.b3>.btn{
+    position: relative;
+    top: 6px;
+    left: 140px;
+    margin-inline: 10px;
+height: 33px;    
+
+}
+.a3:hover{
+    color: black;
+}
+.b3{
+    position: relative;
+    left: 130px;
+    border-radius: 40px;
+    width: 100px;
+    margin-inline: 10px;
+    height: 28px;
+}
+.card>img:hover{
+    animation-name: card;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    
+}
+@keyframes card{
+    0%{
+        transform: perspective(800px)translateZ(30px);
+    }
+
+    50%{
+        transform: perspective(800px)translateZ(60px);
+
+    }
+    100%{
+        transform: perspective(800px)translateZ(100px);
+    }
+}
+.row,col{
+    margin-top: 30px;
+}
+.col-10>video{
+    border-radius: 20px;
+}
+input{
+height: 40px;
+border-radius: 10px;
+}
+.col-sm-5,button{
+    height: 40px;
+    
+}
+.a1{
+    display: flex;
+
+}
+
+.a1{
+    margin-left: 100px;
+}
+.a1>li{
+    margin-inline: 3px;
+}
+.col-sm-3>li>p:hover{
+color: silver;
+}
+.col-sm-3>li>h5:hover{
+    color: silver;
+}
+.col-sm-5>li>h5:hover{
+    color: silver;
+}
+body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
+.col-sm-12{
+    background-color: #000;
+    
+}
+.col-sm-4{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+  .col-sm-6{
+    display: flex;
+    justify-content: start;
+
+  }
+
+
